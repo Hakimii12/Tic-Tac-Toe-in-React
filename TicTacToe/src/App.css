@@ -1,0 +1,70 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .board {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    border-radius: 20px;
+    flex: 33%;
+    display: flex;
+    flex-direction: row;
+    background-color:aliceblue;
+  }
+  
+  .square {
+    flex: 33%;
+    height: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .square:active {
+    background-color: #64f4c4;
+  }
+.buttoncontainer{
+  display:flex;
+  justify-content: center;
+  height: 30px;
+}
+  button{
+    width: 25%;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(18, 161, 161);
+  }
+  button:hover{
+    background-color: rgb(8, 243, 243);
+  }
+  p{
+    background-color: aliceblue;
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
